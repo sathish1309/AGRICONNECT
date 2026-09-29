@@ -1,0 +1,14 @@
+{
+  "name": "agriconnect-workspace",
+  "version": "1.0.0",
+  "description": "AgriConnect – Digital Farmer-to-Buyer Marketplace",
+  "scripts": {
+    "init-db": "cd server && node scripts/initDb.js",
+    "server": "cd server && node server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["agriconnect", "marketplace", "farmer", "react", "express", "mysql"],
+  "author": "AgriConnect Team",
+  "license": "ISC"
+}
